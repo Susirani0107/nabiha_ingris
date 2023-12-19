@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+
+nav.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.menu {
+    width: 50%
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+}
+
+
+
+.about-text{
+    width: 430px;
+}
+
+.images{
+    width: 30%;
+    height: 80%;
+    position:absolute;
+    bottom:0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+
+/* Hero Section */
+#hero { 
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-tema {
+    color: rgb(6, 6, 82);
+    font-size: 4rem ;
+    font-weight: 500 ;
+    margin: 0.5rem 0.1rem;
+}
+
+.hero-name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0.5rem 0.1rem;
+}
+
+
+.main {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #e9ab37;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 250px;
+}
+.main img{
+    height: auto;
+    width: 250px;
+}
+
+.about-text{
+    width: 430px;
+}
+
+.about-text h2{
+    font-size: 50px;
+    background-color: beige;
+}
+
+.about-text h5{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.about-text p{
+    font-size: 25px;
+    color:bisque;
+}
+
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Skills-text{
+    width: 100%;
+    height: 400px;
+    background: rgb(12, 11, 12);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Skills-text h2{
+    font-size: 40px;
+    color:azure
+}
+
+.Skills h4{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+.Contact-text{
+    width: 100%;
+    height: 400px;
+    background: #181716;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contact-text h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+
+
+/* Titile */
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #181716;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.pre-title::before {
+    width: 30px;
+    height: 1px;
+    background-color: beige;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+
+}
